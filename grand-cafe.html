@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Grand Cafe UK — a friendly, traditional cafe in London N13, known for generous portions, fresh food, coffee and welcoming service.">
+<title>Grand Cafe UK | London N13</title>
+<style>
+:root{--cream:#fbf7ef;--paper:#fffdf8;--ink:#26352c;--muted:#687269;--green:#244b3b;--green2:#376653;--gold:#c99b4a;--line:#e7dfd1;--shadow:0 18px 50px rgba(38,53,44,.10)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit}.container{width:min(1120px,calc(100% - 40px));margin:auto}.topbar{background:var(--green);color:#fff;padding:9px 0;font-size:14px}.topbar .container{display:flex;justify-content:space-between;gap:15px}.nav{position:sticky;top:0;z-index:20;background:rgba(251,247,239,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav-inner{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{font-family:Georgia,serif;font-size:25px;font-weight:700;text-decoration:none;color:var(--green)}.brand span{color:var(--gold)}.navlinks{display:flex;gap:27px;align-items:center}.navlinks a{text-decoration:none;font-size:14px;font-weight:700}.navlinks a:hover{color:var(--gold)}.nav-cta{background:var(--green);color:#fff!important;padding:10px 16px;border-radius:999px}.hero{padding:82px 0 70px;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;width:480px;height:480px;border-radius:50%;background:#eadfc9;right:-180px;top:-190px;opacity:.65}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center}.eyebrow{color:var(--gold);font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.hero h1{font:700 clamp(48px,7vw,82px)/.95 Georgia,serif;margin:15px 0 22px;letter-spacing:-.04em;color:var(--green)}.hero p{font-size:19px;color:var(--muted);max-width:610px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-block;text-decoration:none;padding:13px 21px;border-radius:999px;font-weight:800;font-size:14px;border:1px solid var(--green)}.btn.primary{background:var(--green);color:#fff}.btn.secondary{color:var(--green);background:transparent}.rating{display:flex;align-items:center;gap:10px;margin-top:25px;font-size:14px}.stars{letter-spacing:2px;color:var(--gold);font-size:18px}.hero-card{background:var(--green);border-radius:28px;padding:13px;box-shadow:var(--shadow);transform:rotate(1.2deg)}.hero-card-inner{border:1px solid rgba(255,255,255,.22);border-radius:20px;min-height:390px;padding:35px;display:flex;flex-direction:column;justify-content:flex-end;background:radial-gradient(circle at 20% 15%,#4c7b66 0 12%,transparent 13%),linear-gradient(145deg,#315c49,#183a2d)}.hero-card .mini{color:#e9d7af;font-size:12px;letter-spacing:.15em;text-transform:uppercase;font-weight:800}.hero-card h2{color:#fff;font:700 48px/1 Georgia,serif;margin:10px 0}.hero-card p{color:#d9e5dd;font-size:15px;margin:0}.section{padding:88px 0}.section.alt{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.section-head{max-width:690px;margin-bottom:38px}.section-head .eyebrow{display:block;margin-bottom:8px}.section h2{font:700 clamp(35px,5vw,55px)/1.05 Georgia,serif;margin:0 0 13px;color:var(--green)}.section-head p{color:var(--muted);font-size:17px}.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.fact{padding:24px;border:1px solid var(--line);border-radius:18px;background:var(--paper)}.fact strong{display:block;font:700 30px Georgia,serif;color:var(--green);margin-bottom:5px}.fact span{font-size:13px;color:var(--muted)}.menu-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.menu-card{border:1px solid var(--line);background:var(--cream);border-radius:22px;padding:30px}.menu-card h3{font:700 30px Georgia,serif;color:var(--green);margin:0 0 18px}.dish{display:flex;justify-content:space-between;gap:15px;padding:15px 0;border-top:1px solid var(--line)}.dish:first-of-type{border-top:0}.dish strong{font-size:15px}.dish small{display:block;color:var(--muted);margin-top:3px}.pill{display:inline-block;background:#efe4cf;color:var(--green);font-size:12px;font-weight:800;padding:5px 9px;border-radius:999px;margin-top:18px}.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.review{background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:26px;box-shadow:0 8px 30px rgba(38,53,44,.05)}.review .stars{font-size:15px}.review p{font:18px/1.55 Georgia,serif;margin:15px 0 20px}.review cite{font-style:normal;font-size:13px;color:var(--muted);font-weight:700}.cta{background:var(--green);color:#fff;border-radius:30px;padding:55px;display:flex;justify-content:space-between;align-items:center;gap:30px}.cta h2{color:#fff;margin:0 0 8px}.cta p{color:#d7e4dc;margin:0}.cta .btn{border-color:#fff;color:#fff}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px}.contact-card{padding:30px;border:1px solid var(--line);background:var(--paper);border-radius:22px}.contact-row{padding:15px 0;border-bottom:1px solid var(--line)}.contact-row:last-child{border-bottom:0}.contact-row label{display:block;text-transform:uppercase;letter-spacing:.1em;font-size:11px;font-weight:800;color:var(--gold);margin-bottom:3px}.contact-row a{text-decoration:none;font-weight:700}.map-box{min-height:100%;border-radius:22px;background:linear-gradient(135deg,#d8cdb8,#f0e9dc);display:flex;align-items:center;justify-content:center;text-align:center;padding:35px}.map-box div{background:rgba(255,253,248,.9);padding:25px;border-radius:18px;max-width:320px}.footer{background:#183a2d;color:#dce7e0;padding:35px 0}.footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:13px}.footer strong{font-family:Georgia,serif;font-size:19px;color:#fff}@media(max-width:850px){.hero-grid,.contact-grid{grid-template-columns:1fr}.facts{grid-template-columns:1fr 1fr}.reviews{grid-template-columns:1fr}.menu-grid{grid-template-columns:1fr}.navlinks{display:none}.hero{padding-top:55px}.hero-card{transform:none}.cta{flex-direction:column;align-items:flex-start;padding:38px}}@media(max-width:520px){.container{width:min(100% - 28px,1120px)}.topbar .container{font-size:12px}.topbar .container span:last-child{display:none}.facts{grid-template-columns:1fr}.hero h1{font-size:52px}.section{padding:65px 0}.cta{border-radius:22px}.brand{font-size:21px}}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container"><span>Friendly food • Generous portions • Good coffee</span><span>London N13 6BE</span></div></div>
+<header class="nav"><div class="container nav-inner"><a class="brand" href="#">Grand <span>Cafe</span> UK</a><nav class="navlinks"><a href="#about">About</a><a href="#menu">Menu</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a><a class="nav-cta" href="tel:+442088887721">Call us</a></nav></div></header>
+
+<main>
+<section class="hero"><div class="container hero-grid">
+<div>
+<div class="eyebrow">A welcoming local cafe in London</div>
+<h1>Good food.<br>Good people.</h1>
+<p>Grand Cafe UK is a friendly, traditional cafe at Forest House Hotel in London N13. Guests love the fresh food, generous portions, reasonable prices and warm service.</p>
+<div class="actions"><a class="btn primary" href="tel:+442088887721">Call +44 20 8888 7721</a><a class="btn secondary" href="#visit">Plan your visit</a></div>
+<div class="rating"><span class="stars">★★★★★</span><strong>4.8</strong><span>328 Google reviews</span></div>
+</div>
+<div class="hero-card"><div class="hero-card-inner"><span class="mini">Grand Cafe UK</span><h2>Come in,<br>feel at home.</h2><p>Breakfast, coffee, lunch and a relaxed atmosphere with welcoming staff.</p></div></div>
+</div></section>
+
+<section class="section alt" id="about"><div class="container">
+<div class="section-head"><span class="eyebrow">Why guests return</span><h2>A simple cafe experience done well.</h2><p>From a hearty English breakfast to a relaxed lunch, the customer feedback consistently highlights value, generous portions, cleanliness and friendly service.</p></div>
+<div class="facts">
+<div class="fact"><strong>4.8 ★</strong><span>Overall rating from 328 reviews</span></div>
+<div class="fact"><strong>£1–10</strong><span>Reported price range per person</span></div>
+<div class="fact"><strong>328</strong><span>Google reviews shown in the provided listing</span></div>
+<div class="fact"><strong>6 PM</strong><span>Listed closing time</span></div>
+</div>
+</div></section>
+
+<section class="section" id="menu"><div class="container">
+<div class="section-head"><span class="eyebrow">Menu highlights</span><h2>Comforting cafe favourites.</h2><p>The provided listing highlights these popular menu mentions. Ask the cafe about the full current menu and daily availability.</p></div>
+<div class="menu-grid">
+<div class="menu-card"><h3>Breakfast</h3><div class="dish"><div><strong>Scrambled Eggs &amp; Beans on 2 Toast</strong><small>A popular menu mention from the listing.</small></div></div><span class="pill">Popular</span></div>
+<div class="menu-card"><h3>Drinks &amp; more</h3><div class="dish"><div><strong>Coffee</strong><small>Customers specifically praise the coffee.</small></div></div><div class="dish"><div><strong>Fresh food &amp; generous portions</strong><small>Frequently mentioned in customer feedback.</small></div></div><span class="pill">Customer favourites</span></div>
+</div>
+</div></section>
+
+<section class="section alt" id="reviews"><div class="container">
+<div class="section-head"><span class="eyebrow">Customer feedback</span><h2>What people are saying.</h2><p>Selected from the review information provided for this website concept.</p></div>
+<div class="reviews">
+<article class="review"><span class="stars">★★★★★</span><p>“Such a lovely place, very reasonable prices, accommodating staff. Thank you for the delicious breakfast.”</p><cite>— Paige Smith · Local Guide</cite></article>
+<article class="review"><span class="stars">★★★★★</span><p>“They are so kind to the children … and the atmosphere it gives [is] really traditional and cozy.”</p><cite>— Martina Serafinova</cite></article>
+<article class="review"><span class="stars">★★★★★</span><p>“Great value for money. Clean. Food and service 5 stars.”</p><cite>— Damian Olesz · Local Guide</cite></article>
+</div>
+</div></section>
+
+<section class="section"><div class="container"><div class="cta"><div><h2>Looking for a friendly local cafe?</h2><p>Drop in for breakfast, lunch, coffee or a relaxed bite.</p></div><a class="btn" href="tel:+442088887721">Call the cafe</a></div></div></section>
+
+<section class="section" id="visit"><div class="container">
+<div class="section-head"><span class="eyebrow">Find us</span><h2>Plan your visit.</h2><p>Use the details below to contact Grand Cafe UK or get directions.</p></div>
+<div class="contact-grid">
+<div class="contact-card">
+<div class="contact-row"><label>Address</label><strong>London N13 6BE, United Kingdom</strong></div>
+<div class="contact-row"><label>Located in</label><strong>Forest House Hotel</strong></div>
+<div class="contact-row"><label>Phone</label><a href="tel:+442088887721">+44 20 8888 7721</a></div>
+<div class="contact-row"><label>Listed hours</label><strong>Open · Closes 6 PM</strong></div>
+<div class="contact-row"><label>Services</label><strong>Dine-in · Takeout</strong></div>
+</div>
+<div class="map-box"><div><div class="eyebrow">London N13</div><h3 style="font:700 30px Georgia,serif;margin:8px 0;color:var(--green)">Grand Cafe UK</h3><p style="color:var(--muted)">Located at Forest House Hotel. Use your preferred maps app for turn-by-turn directions.</p><a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=Grand%20Cafe%20UK%20London%20N13%206BE" target="_blank" rel="noopener">Open in Google Maps</a></div></div>
+</div>
+</div></section>
+</main>
+<footer class="footer"><div class="container footer-inner"><div><strong>Grand Cafe UK</strong><br>London N13 6BE</div><div>© 2026 Grand Cafe UK · Website concept based on supplied business listing data.</div></div></footer>
+</body>
+</html>
